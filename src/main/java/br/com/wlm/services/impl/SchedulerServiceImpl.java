@@ -15,7 +15,7 @@ import br.com.wlm.services.SchedulerService;
 
 public class SchedulerServiceImpl implements SchedulerService {
 
-	private static final DateTimeFormatter FORAMTTER_WITH_PATTERN = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	private final DateTimeFormatter FORAMTTER_WITH_PATTERN = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
 
 	@Override
