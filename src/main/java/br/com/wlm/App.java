@@ -23,7 +23,7 @@ public class App {
 				.id(2)
 				.descricao("Importação de dados da Base Legada")
 				.dataMaximaExecucao(LocalDateTime.of(2019,11,11,12,00,00))
-				.tempoEstimadoEmHoras(6l)
+				.tempoEstimadoEmHoras(2l)
 				.build();
 		Job job3 = Job.builder()
 				.id(3)
