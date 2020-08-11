@@ -21,3 +21,8 @@ Após gerado o objeto em target/schedulertools-1.0.0.jar. Executar o seguinte co
 ``
 java -cp schedulertools-1.0.0.jar br.com.wlm.App
 ``
+## Testes
+
+Para rodar os testes unitários basta rodar a seguinte linha de comando:
+
+mvn test
